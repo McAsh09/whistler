@@ -68,10 +68,7 @@ const Carousel = () => {
         <Slide right>
           <div>
             <img src={img2} alt="Admin" className={styles.img} />
-            <p>
-              Admin will be governor of the whole process. They can add new
-              factories and NGOs and take actions on complaints.
-            </p>
+           
           </div>
         </Slide>
         <Slide right>
