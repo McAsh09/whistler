@@ -10,7 +10,7 @@ const adminSchema = new schema({
   password: {
     type: String,
     require: true,
-  },
+  }
 });
 
 module.exports = mongoose.model("admin", adminSchema);
